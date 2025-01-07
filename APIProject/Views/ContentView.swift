@@ -17,7 +17,7 @@ struct ContentView: View {
                             openURL(url)
                         }
                     } label: {
-//                        Label("Get Help", systemImage: "person.fill.questionmark")
+                        Label("Get Help", systemImage: "person.fill.questionmark")
                     }
             Text("yeahhhh")
         }
