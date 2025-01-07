@@ -19,6 +19,7 @@ struct ContentView: View {
                     } label: {
                         Label("Get Help", systemImage: "person.fill.questionmark")
                     }
+            Text("yeahhhh")
         }
         .padding()
     }
