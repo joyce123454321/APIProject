@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3B7F312D31A62500CE3D6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B7F302D31A62500CE3D6E /* Constants.swift */; };
 		3ED977752D133DC10069EC27 /* APIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED977742D133DC10069EC27 /* APIProjectApp.swift */; };
 		3ED977772D133DC10069EC27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED977762D133DC10069EC27 /* ContentView.swift */; };
 		3ED977792D133DC30069EC27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED977782D133DC30069EC27 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E3B7F302D31A62500CE3D6E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3ED977712D133DC10069EC27 /* APIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED977742D133DC10069EC27 /* APIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProjectApp.swift; sourceTree = "<group>"; };
 		3ED977762D133DC10069EC27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				3ED977862D1347070069EC27 /* FetchData.swift */,
+				3E3B7F302D31A62500CE3D6E /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3B7F312D31A62500CE3D6E /* Constants.swift in Sources */,
 				3ED977772D133DC10069EC27 /* ContentView.swift in Sources */,
 				3ED977842D1345DC0069EC27 /* WebViewContainer.swift in Sources */,
 				3ED977872D1347070069EC27 /* FetchData.swift in Sources */,

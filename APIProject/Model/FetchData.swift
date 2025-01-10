@@ -11,7 +11,7 @@ struct FetchData{
     var response: Response = Response()
     
     mutating func getData() async{
-        let URLString = "https://www.calstatela.edu/"
+        let URLString = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita"
         
         guard let url = URL(string: URLString) else {return}
         

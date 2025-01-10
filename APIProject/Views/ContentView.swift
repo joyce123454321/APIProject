@@ -20,6 +20,7 @@ struct ContentView: View {
                         Label("Get Help", systemImage: "person.fill.questionmark")
                     }
             Text("yeahhhh")
+                .font(Constants.buttonFont)
         }
         .padding()
     }
